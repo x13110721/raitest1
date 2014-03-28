@@ -1,0 +1,73 @@
+﻿<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Converter</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600|Source+Code+Pro" rel="stylesheet" />
+		<!--[if lte IE 8]><script src="js/vendor/html5shiv.js" type="text/javascript"></script><![endif]-->
+        <script src="js/vendor/jquery-1.10.2.min.js"></script>
+        <script src="js/converter.js"></script>
+        <script src="js/converter1.js"></script>
+        <script src="~/js/vendor/converter1.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/main2.js"></script>
+        <script src="js/vendor/skel.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<!-- Header -->
+				<div id="header" class="row"> 
+					<div class="4u"> <!-- wEB pAGE uNITS -->
+						<h1>Conversion Table</h1>
+					</div>
+
+				</div>
+			<!-- Hero -->
+				<section id="hero">
+                    
+                    </section>
+					<button class="button" id="convertbutton" onclick="convert();">Inch</button>
+                    <button class="button" id="clearbutton">Clear</button>
+				
+			<!-- Features -->
+				<div class="row">
+					<div class="-2u 4u">
+						<h2>Input</h2>
+						<input class="" type="number" id="metricinput"/>
+					</div>
+
+                    <div class="-2u 4u">
+						<h2>Output</h2>
+						<input type="number" id="imperialinput"/>
+					</div>
+
+				</div>
+            <button class="button" id="convertbutton1" >Centimete</button>
+                    <button class="button" id="clearbutton1">Inch</button>
+
+            <div class="row">
+					<div class="-2u 4u">
+						<h2>Input</h2>
+						<input class="" type="number" id="metricinput1"/>
+					</div>
+
+                    <div class="-2u 4u">
+						<h2>Output</h2>
+						<input type="number" id="imperialinput1"/>
+					</div>
+                  <p ><b>Insert a number into one of the input fields below:</b></p>
+<form>
+<input id="c" name="c" onkeyup="convert('C')"> degrees Celsius<br>
+equals<br> 
+<input id="f" name="f" onkeyup="convert('F')"> degrees Fahrenheit 
+</form>
+<p>Note that the <b>Math.round()</b> method is used, so that the result will be returned as an integer.</p>
+
+			<!-- Footer -->
+				
+		</div>
+	                <div id="footer">
+					&copy; This is the footer..nuthin special here!
+				</div>
+                 </body>
+                 </html>
